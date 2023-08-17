@@ -1,0 +1,99 @@
+/*body{
+    text-align: center;
+}
+div{
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#container{
+    width: 700px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+   flex-wrap: wrap;
+    align-items:flex-start;
+    align-content:flex-start;
+}
+.id1{
+    background-color: brown;
+    flex-grow: 1;
+}
+.id2{
+    background-color: blue;
+    height: 200px;
+    flex-shrink: 2;
+
+
+}
+.id3{
+    background-color: chocolate;
+    height: 75px;
+}                                 
+
+
+.navbar{
+    background-color: blue;
+    display: flex; 
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+.box1{
+    width: 400px;
+    height: 400px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+}*/
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+/*@media(width:600px){
+    div{
+        background-color: yellow;
+    }
+}
+@media(max-width:600px){
+    div{
+        background-color: darkmagenta;
+        font-size: larger;
+    }
+}*/
+@media(max-width:300px){
+    div{
+        background-color:green;
+    }
+}
+@media(min-width:300px) and (max-width:400px){
+    div{
+        background-color:pink;
+    }
+}
+@media(min-width:400px) and (max-width:600px){
+    div{
+        background-color:crimson;
+    }
+}
+@media(min-width:600px){
+    div{
+        background-color:plum;
+    }
+}
+
